@@ -25,16 +25,24 @@ An AI-powered adaptive learning platform that personalizes the learning experien
 ▶️ How to Run
 
 Create Virtual Environment
+```bash
 python -m venv venv
+```
 
 Activate Virtual Environment
+```bash
 venv\Scripts\activate
+```
 
 Install Requirements
+```bash
 pip install -r requirements.txt
+```
 
 Run Backend API
+```bash
 uvicorn api:app --reload
+```
 
 ### Run Streamlit Frontend
 
